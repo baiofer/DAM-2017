@@ -53,15 +53,16 @@ columna secundaria de contenidos de 200 píxel de anchura.*/
 	border-top-right-radius: 1.5em;
 }
 .buscador, h1 a {
-	width: 300px;
+	width: 46%;
 	color: white;
 	display: inline;
-	position: center;
 }
 .cabecera h1 {
 	font-size: 36px;
 	padding: 0 20px;
 	float: left;
+	display: inline;
+	width: 46%;
 }
 .buscador {
 	float: right;
@@ -96,6 +97,7 @@ elementos seleccionados se muestran con un colorde fondo blanco y un color de le
 }
 .menu, .clearfix {
 	overflow: hidden;
+	width: 100%;
 }
 .clearfix li:hover a {
 	color: #ff9000;

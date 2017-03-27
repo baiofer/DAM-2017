@@ -12,21 +12,34 @@ pasar del estado inicial al final, aplicando las siguientes transformaciones: */
 
 /* Rotar los elementos 270º. */
 
-
 /* Intercambiar las posiciones de las cajas 1 y 2, 3 y 4. */
-
 
 /* Cambiar el tamaño de 100px a 50px. */
 
-
 /* Cambiar el color de fondo de azul a rojo. */
-
 
 /* Cambiar el color del texto de negro a amarillo. */
 
-
 /* Cambiar el tamaño de letra de 20px a 18px. */
 
-
 /* Utilizar en cada caso, una duración y función de tiempo diferentes. */
-
+.ex01:hover .box:hover {
+    transform: translate(500px, 120px) rotate(270deg);
+    transform-origin: bottom right;
+    transition: all 5s;
+}
+.ex02:hover .box:hover {
+    transform: translate(500px, -120px) rotate(270deg);
+    transform-origin: bottom right;
+    transition: all 3s;
+}
+.ex03:hover .box:hover {
+    transform: translate(500px, 120px) rotate(270deg);
+    transform-origin: bottom right;
+    transition: all 7s;
+}
+.ex04:hover .box:hover {
+    transform: translate(500px, -120px) rotate(270deg);
+    transform-origin: bottom right;
+    transition: all 2s;
+}
